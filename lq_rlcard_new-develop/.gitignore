@@ -1,0 +1,19 @@
+# Created by .ignore support plugin (hsz.mobi)
+.git/*
+*.swp
+*.so
+__pycache__
+.DS_Store
+*.egg-info
+*.pyc
+reinforce/results/
+reinforce/results/dmc
+.idea/
+output/
+conf/conf.json
+conf/conf
+conf/conf.py
+dmc/results/
+reinforce/trains/results/
+reinforce/torchc.py
+test/

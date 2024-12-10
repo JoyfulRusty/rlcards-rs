@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package cs.msg;
+
+// 玩家请求出牌
+message C2SPlayCards {
+    repeated uint32 cards = 1;
+}
+
+// 玩家叫分
+message S2CDoBid {
+  uint32 seat_id = 1;
+  uint32 bid_score = 2;
+}
+
+// 玩家铲
+message S2CDoRedouble {
+  uint32 seat_id = 1;
+  uint32 score = 2;  // 当前加倍分
+  uint32 multiple = 3;  // 倍数
+}
