@@ -1,0 +1,10 @@
+aiofiles==23.1.0
+aiologger==0.7.0
+aioredis==2.0.1
+GitPython==3.1.31
+gym==0.26.2
+matplotlib==3.7.1
+msgpack_python==0.5.6
+numpy==1.23.3
+torch==1.13.1
+ujson==5.6.0
