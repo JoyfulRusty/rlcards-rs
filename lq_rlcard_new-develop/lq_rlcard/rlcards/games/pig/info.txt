@@ -1,2 +1,0 @@
-python train.py --actor_device_cpu --training_device cpu --load_model
-python39 train.py --actor_device_cpu --training_device cpu --load_model
